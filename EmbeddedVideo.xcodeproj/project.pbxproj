@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1CB7F9B136B634B0062A84A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CB7F9A136B634B0062A84A /* UIKit.framework */; };
+		E1CB7F9D136B634B0062A84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CB7F9C136B634B0062A84A /* Foundation.framework */; };
+		E1CB7F9F136B634B0062A84A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CB7F9E136B634B0062A84A /* CoreGraphics.framework */; };
+		E1CB7FA5136B634B0062A84A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1CB7FA3136B634B0062A84A /* InfoPlist.strings */; };
+		E1CB7FA8136B634B0062A84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB7FA7136B634B0062A84A /* main.m */; };
+		E1CB7FAB136B634B0062A84A /* EmbeddedVideoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB7FAA136B634B0062A84A /* EmbeddedVideoAppDelegate.m */; };
+		E1CB7FAE136B634B0062A84A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CB7FAC136B634B0062A84A /* MainWindow.xib */; };
+		E1CB7FB1136B634B0062A84A /* EmbeddedVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB7FB0136B634B0062A84A /* EmbeddedVideoViewController.m */; };
+		E1CB7FB4136B634B0062A84A /* EmbeddedVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CB7FB2136B634B0062A84A /* EmbeddedVideoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1CB7F96136B634B0062A84A /* EmbeddedVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbeddedVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CB7F9A136B634B0062A84A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1CB7F9C136B634B0062A84A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1CB7F9E136B634B0062A84A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1CB7FA2136B634B0062A84A /* EmbeddedVideo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbeddedVideo-Info.plist"; sourceTree = "<group>"; };
+		E1CB7FA4136B634B0062A84A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1CB7FA6136B634B0062A84A /* EmbeddedVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmbeddedVideo-Prefix.pch"; sourceTree = "<group>"; };
+		E1CB7FA7136B634B0062A84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1CB7FA9136B634B0062A84A /* EmbeddedVideoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedVideoAppDelegate.h; sourceTree = "<group>"; };
+		E1CB7FAA136B634B0062A84A /* EmbeddedVideoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedVideoAppDelegate.m; sourceTree = "<group>"; };
+		E1CB7FAD136B634B0062A84A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E1CB7FAF136B634B0062A84A /* EmbeddedVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedVideoViewController.h; sourceTree = "<group>"; };
+		E1CB7FB0136B634B0062A84A /* EmbeddedVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedVideoViewController.m; sourceTree = "<group>"; };
+		E1CB7FB3136B634B0062A84A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EmbeddedVideoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CB7F93136B634B0062A84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB7F9B136B634B0062A84A /* UIKit.framework in Frameworks */,
+				E1CB7F9D136B634B0062A84A /* Foundation.framework in Frameworks */,
+				E1CB7F9F136B634B0062A84A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CB7F8B136B634B0062A84A = {
+			isa = PBXGroup;
+			children = (
+				E1CB7FA0136B634B0062A84A /* EmbeddedVideo */,
+				E1CB7F99136B634B0062A84A /* Frameworks */,
+				E1CB7F97136B634B0062A84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CB7F97136B634B0062A84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB7F96136B634B0062A84A /* EmbeddedVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CB7F99136B634B0062A84A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB7F9A136B634B0062A84A /* UIKit.framework */,
+				E1CB7F9C136B634B0062A84A /* Foundation.framework */,
+				E1CB7F9E136B634B0062A84A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1CB7FA0136B634B0062A84A /* EmbeddedVideo */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB7FA9136B634B0062A84A /* EmbeddedVideoAppDelegate.h */,
+				E1CB7FAA136B634B0062A84A /* EmbeddedVideoAppDelegate.m */,
+				E1CB7FAC136B634B0062A84A /* MainWindow.xib */,
+				E1CB7FAF136B634B0062A84A /* EmbeddedVideoViewController.h */,
+				E1CB7FB0136B634B0062A84A /* EmbeddedVideoViewController.m */,
+				E1CB7FB2136B634B0062A84A /* EmbeddedVideoViewController.xib */,
+				E1CB7FA1136B634B0062A84A /* Supporting Files */,
+			);
+			path = EmbeddedVideo;
+			sourceTree = "<group>";
+		};
+		E1CB7FA1136B634B0062A84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB7FA2136B634B0062A84A /* EmbeddedVideo-Info.plist */,
+				E1CB7FA3136B634B0062A84A /* InfoPlist.strings */,
+				E1CB7FA6136B634B0062A84A /* EmbeddedVideo-Prefix.pch */,
+				E1CB7FA7136B634B0062A84A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CB7F95136B634B0062A84A /* EmbeddedVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CB7FB7136B634B0062A84A /* Build configuration list for PBXNativeTarget "EmbeddedVideo" */;
+			buildPhases = (
+				E1CB7F92136B634B0062A84A /* Sources */,
+				E1CB7F93136B634B0062A84A /* Frameworks */,
+				E1CB7F94136B634B0062A84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmbeddedVideo;
+			productName = EmbeddedVideo;
+			productReference = E1CB7F96136B634B0062A84A /* EmbeddedVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CB7F8D136B634B0062A84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Nearsoft;
+			};
+			buildConfigurationList = E1CB7F90136B634B0062A84A /* Build configuration list for PBXProject "EmbeddedVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1CB7F8B136B634B0062A84A;
+			productRefGroup = E1CB7F97136B634B0062A84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CB7F95136B634B0062A84A /* EmbeddedVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CB7F94136B634B0062A84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB7FA5136B634B0062A84A /* InfoPlist.strings in Resources */,
+				E1CB7FAE136B634B0062A84A /* MainWindow.xib in Resources */,
+				E1CB7FB4136B634B0062A84A /* EmbeddedVideoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CB7F92136B634B0062A84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CB7FA8136B634B0062A84A /* main.m in Sources */,
+				E1CB7FAB136B634B0062A84A /* EmbeddedVideoAppDelegate.m in Sources */,
+				E1CB7FB1136B634B0062A84A /* EmbeddedVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1CB7FA3136B634B0062A84A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CB7FA4136B634B0062A84A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1CB7FAC136B634B0062A84A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CB7FAD136B634B0062A84A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E1CB7FB2136B634B0062A84A /* EmbeddedVideoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CB7FB3136B634B0062A84A /* en */,
+			);
+			name = EmbeddedVideoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1CB7FB5136B634B0062A84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E1CB7FB6136B634B0062A84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E1CB7FB8136B634B0062A84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbeddedVideo/EmbeddedVideo-Prefix.pch";
+				INFOPLIST_FILE = "EmbeddedVideo/EmbeddedVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1CB7FB9136B634B0062A84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbeddedVideo/EmbeddedVideo-Prefix.pch";
+				INFOPLIST_FILE = "EmbeddedVideo/EmbeddedVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CB7F90136B634B0062A84A /* Build configuration list for PBXProject "EmbeddedVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CB7FB5136B634B0062A84A /* Debug */,
+				E1CB7FB6136B634B0062A84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CB7FB7136B634B0062A84A /* Build configuration list for PBXNativeTarget "EmbeddedVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CB7FB8136B634B0062A84A /* Debug */,
+				E1CB7FB9136B634B0062A84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CB7F8D136B634B0062A84A /* Project object */;
+}
