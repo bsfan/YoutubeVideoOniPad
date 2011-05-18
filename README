@@ -1,1 +1,4 @@
 I'm using UIWebView for display a YouTube video with a embed code as html string.
+
+
+Note: The iPad/iPhone simulator does not allow online reproduction, the video will only be visible in a real device .
